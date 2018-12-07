@@ -1,0 +1,23 @@
+
+#head{ 
+	 
+	  float:left;
+}
+#content{	
+		  
+	float:left;
+	width: 100%;
+}
+
+#title{
+ 
+	  width: 50%;
+	  float:left;
+}
+#search{
+	float: left;
+	  width: 50%;
+}
+#frame{
+	height:540px;
+}
