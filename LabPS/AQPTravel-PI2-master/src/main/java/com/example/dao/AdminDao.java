@@ -1,10 +1,10 @@
-package com.example.dao;
+package main.java.com.example.dao;
 
 
 import java.util.List;
 
-import com.example.logic.Admin;
-import com.example.logic.User;
+import main.java.com.example.logic.Admin;
+import main.java.com.example.logic.User;
 public interface AdminDao {
 	
 	public List<Admin> listAllAdmin();

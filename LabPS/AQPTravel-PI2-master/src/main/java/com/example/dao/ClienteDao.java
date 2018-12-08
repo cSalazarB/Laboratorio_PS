@@ -1,4 +1,4 @@
-package com.example.dao;
+package main.java.com.example.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -17,9 +17,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-import com.example.logic.Actividad;
-import com.example.logic.Admin;
-import com.example.logic.Customer;
+import main.java.com.example.logic.Actividad;
+import main.java.com.example.logic.Admin;
+import main.java.com.example.logic.Customer;
 
 public class ClienteDao implements InterfaceDao<Customer>{
 	

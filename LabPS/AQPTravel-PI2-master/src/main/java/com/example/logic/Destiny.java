@@ -1,7 +1,7 @@
-package com.example.logic;
+package main.java.com.example.logic;
 
-import com.example.logic.Agency.BuildAgency;
-import com.example.logic.Destiny.BuildDestiny;
+import main.java.com.example.logic.Agency.BuildAgency;
+import main.java.com.example.logic.Destiny.BuildDestiny;
 
 public class Destiny {
 	

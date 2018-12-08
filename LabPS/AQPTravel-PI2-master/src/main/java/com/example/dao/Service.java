@@ -1,4 +1,4 @@
-package com.example.dao;
+package main.java.com.example.dao;
 
 import javax.activation.DataSource;
 

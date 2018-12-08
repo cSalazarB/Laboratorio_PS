@@ -1,9 +1,9 @@
-package com.example.dao;
+package main.java.com.example.dao;
 
 import java.util.List;
 
-import com.example.logic.FotosPaquete;
-import com.example.logic.Paquete;
+import main.java.com.example.logic.FotosPaquete;
+import main.java.com.example.logic.Paquete;
 
 
 public interface PaqueteDao {

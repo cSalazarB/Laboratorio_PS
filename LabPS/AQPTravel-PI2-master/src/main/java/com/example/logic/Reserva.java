@@ -1,4 +1,4 @@
-package com.example.logic;
+package main.java.com.example.logic;
 
 public class Reserva {
 	private Integer idReserva;

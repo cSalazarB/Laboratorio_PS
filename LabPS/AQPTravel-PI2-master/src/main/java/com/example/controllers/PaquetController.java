@@ -1,4 +1,4 @@
-package com.example.controllers;
+package main.java.com.example.controllers;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -21,13 +21,13 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.dao.AdminDao;
-import com.example.dao.AgenciaDao;
-import com.example.dao.PaqueteDao;
-import com.example.logic.Admin;
-import com.example.logic.Agencia;
-import com.example.logic.FotosPaquete;
-import com.example.logic.Paquete;
+import main.java.com.example.dao.AdminDao;
+import main.java.com.example.dao.AgenciaDao;
+import main.java.com.example.dao.PaqueteDao;
+import main.java.com.example.logic.Admin;
+import main.java.com.example.logic.Agencia;
+import main.java.com.example.logic.FotosPaquete;
+import main.java.com.example.logic.Paquete;
 
 @Controller
 @SessionAttributes("iduser")

@@ -1,4 +1,4 @@
-package com.example.dao;
+package main.java.com.example.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -8,9 +8,9 @@ import java.util.List;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
-import com.example.logic.Admin;
-import com.example.logic.Agency;
-import com.example.logic.Destiny;
+import main.java.com.example.logic.Admin;
+import main.java.com.example.logic.Agency;
+import main.java.com.example.logic.Destiny;
 
 public class DestinyDaoImpl implements DestinyDao {
 

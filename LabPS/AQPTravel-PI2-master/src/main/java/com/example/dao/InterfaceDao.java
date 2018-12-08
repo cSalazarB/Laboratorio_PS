@@ -1,7 +1,7 @@
-package com.example.dao;
+package main.java.com.example.dao;
 
 import java.util.List;
-import com.example.logic.*;
+import main.java.com.example.logic.*;
 public interface InterfaceDao<T> {
 
 	public List<T> listAll();

@@ -1,9 +1,9 @@
-package com.example.dao;
+package main.java.com.example.dao;
 
 import java.util.List;
 
-import com.example.logic.Admin;
-import com.example.logic.Destiny;
+import main.java.com.example.logic.Admin;
+import main.java.com.example.logic.Destiny;
 
 public interface DestinyDao {
 	

@@ -1,4 +1,4 @@
-package com.example.dao;
+package main.java.com.example.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -15,8 +15,8 @@ import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.stereotype.Repository;
 
-import com.example.logic.Admin;
-import com.example.logic.Reserva;
+import main.java.com.example.logic.Admin;
+import main.java.com.example.logic.Reserva;
 
 public class ReservaDao implements InterfaceDao<Reserva> {
 

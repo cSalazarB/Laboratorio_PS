@@ -1,4 +1,4 @@
-package com.example.dao;
+package main.java.com.example.dao;
 
 
 import java.sql.Connection;
@@ -16,9 +16,9 @@ import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.logic.Admin;
-import com.example.logic.FotosPaquete;
-import com.example.logic.Paquete;
+import main.java.com.example.logic.Admin;
+import main.java.com.example.logic.FotosPaquete;
+import main.java.com.example.logic.Paquete;
 @Repository
 public class PaqueteDaoImpl implements PaqueteDao {
 	

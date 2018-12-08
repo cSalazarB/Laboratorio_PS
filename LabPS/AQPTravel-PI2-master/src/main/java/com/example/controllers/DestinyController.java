@@ -1,4 +1,4 @@
-package com.example.controllers;
+package main.java.com.example.controllers;
 
 import java.io.IOException;
 import java.sql.Date;
@@ -22,12 +22,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.example.dao.AdminDao;
-import com.example.dao.DestinyDao;
-import com.example.logic.Admin;
-import com.example.logic.Destiny;
-import com.example.logic.Destiny.BuildDestiny;
-import com.example.logic.Destiny;
+import main.java.com.example.dao.AdminDao;
+import main.java.com.example.dao.DestinyDao;
+import main.java.com.example.logic.Admin;
+import main.java.com.example.logic.Destiny;
+import main.java.com.example.logic.Destiny.BuildDestiny;
+import main.java.com.example.logic.Destiny;
 
 @Controller
 
